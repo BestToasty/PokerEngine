@@ -1,0 +1,37 @@
+{
+  "0": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "SPADES",
+    "description": "Two of SPADES"
+  },
+  "1": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "SPADES",
+    "description": "Three of SPADES"
+  },
+  "2": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "SPADES",
+    "description": "Four of SPADES"
+  },
+  "3": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "SPADES",
+    "description": "Five of SPADES"
+  },
+  "4": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "SPADES",
+    "description": "Six of SPADES"
+  }
+}

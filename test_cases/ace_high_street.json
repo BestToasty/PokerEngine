@@ -1,0 +1,128 @@
+{
+  "1": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "SPADES",
+    "description": "Three of SPADES"
+  },
+  "2": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "SPADES",
+    "description": "Four of SPADES"
+  },
+  "43": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "DIAMONDS",
+    "description": "Six of DIAMONDS"
+  },
+  "3": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "SPADES",
+    "description": "Five of SPADES"
+  },
+  "4": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "SPADES",
+    "description": "Six of SPADES"
+  },
+  "44": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "DIAMONDS",
+    "description": "Seven of DIAMONDS"
+  },
+  "5": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "SPADES",
+    "description": "Seven of SPADES"
+  },
+  "6": {
+    "number": {
+      "name": "EIGHT"
+    },
+    "color": "SPADES",
+    "description": "Eight of SPADES"
+  },
+  "7": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "SPADES",
+    "description": "Nine of SPADES"
+  },
+  "46": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "DIAMONDS",
+    "description": "Nine of DIAMONDS"
+  },
+  "47": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "SPADES",
+    "description": "Ten of SPADES"
+  },
+  "12": {
+    "number": {
+      "name": "ACE"
+    },
+    "color": "SPADES",
+    "description": "Ace of SPADES"
+  },
+  "11": {
+    "number": {
+      "name": "KING"
+    },
+    "color": "SPADES",
+    "description": "King of SPADES"
+  },
+  "10": {
+    "number": {
+      "name": "QUEEN"
+    },
+    "color": "SPADES",
+    "description": "Queen of SPADES"
+  },
+  "13": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "HEARTS",
+    "description": "Two of HEARTS"
+  },
+  "9": {
+    "number": {
+      "name": "JACK"
+    },
+    "color": "SPADES",
+    "description": "Jack of SPADES"
+  },
+  "14": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "HEARTS",
+    "description": "Three of HEARTS"
+  },
+  "8": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "DIAMONDS",
+    "description": "Ten of DIAMONDS"
+  }
+}
