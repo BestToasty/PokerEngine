@@ -5,7 +5,6 @@ from combination_value import CombinationChecker
 from poker_deck import PokerCard
 from poker_deck import CardNumber
 from poker_deck import CardColor
-import os
 import json
 
 
@@ -203,3 +202,15 @@ class TestPokerDeck(unittest.TestCase):
             print(equivalent_combo.get_rank(), equivalent_combo.get_value())
         print(test_poker_round.players[0].describe_hand())
         print(test_poker_round.describe_board())
+
+    def test_poker_round_straight_flush(self):
+        with open('test_cases/royal_flush.json') as json_file:
+            data = json.load(json_file)
+        test_poker_round = PokerRound(5, 2)
+        test_poker_round.prepare_round_with_prepared_deck(data)
+        test_poker_round.test_initiate_round()
+        test_poker_round.combo_checker.get_all_straights(3)
+        print(test_poker_round.combo_checker.combinations[0].get_rank())
+        print(test_poker_round.describe_board())
+        print(test_poker_round.players[0].describe_hand())
+

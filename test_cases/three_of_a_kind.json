@@ -1,0 +1,366 @@
+{
+  "1": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "CLUBS",
+    "description": "Six of CLUBS"
+  },
+  "2": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "DIAMONDS",
+    "description": "Nine of DIAMONDS"
+  },
+  "3": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "SPADES",
+    "description": "Nine of SPADES"
+  },
+  "4": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "CLUBS",
+    "description": "Seven of CLUBS"
+  },
+  "5": {
+    "number": {
+      "name": "KING"
+    },
+    "color": "SPADES",
+    "description": "King of SPADES"
+  },
+  "6": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "CLUBS",
+    "description": "Two of CLUBS"
+  },
+  "7": {
+    "number": {
+      "name": "QUEEN"
+    },
+    "color": "SPADES",
+    "description": "Queen of SPADES"
+  },
+  "8": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "HEARTS",
+    "description": "Seven of HEARTS"
+  },
+  "9": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "DIAMONDS",
+    "description": "Ten of DIAMONDS"
+  },
+  "10": {
+    "number": {
+      "name": "EIGHT"
+    },
+    "color": "SPADES",
+    "description": "Eight of SPADES"
+  },
+  "11": {
+    "number": {
+      "name": "JACK"
+    },
+    "color": "DIAMONDS",
+    "description": "Jack of DIAMONDS"
+  },
+  "0": {
+    "number": {
+      "name": "ACE"
+    },
+    "color": "CLUBS",
+    "description": "Ace of CLUBS"
+  },
+  "47": {
+    "number": {
+      "name": "ACE"
+    },
+    "color": "DIAMONDS",
+    "description": "Ace of DIAMONDS"
+  },
+  "49": {
+    "number": {
+      "name": "ACE"
+    },
+    "color": "HEARTS",
+    "description": "Ace of HEARTS"
+  },
+  "13": {
+    "number": {
+      "name": "JACK"
+    },
+    "color": "CLUBS",
+    "description": "Jack of CLUBS"
+  },
+  "15": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "HEARTS",
+    "description": "Three of HEARTS"
+  },
+  "16": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "CLUBS",
+    "description": "Nine of CLUBS"
+  },
+  "17": {
+    "number": {
+      "name": "QUEEN"
+    },
+    "color": "HEARTS",
+    "description": "Queen of HEARTS"
+  },
+  "18": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "SPADES",
+    "description": "Six of SPADES"
+  },
+  "12": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "DIAMONDS",
+    "description": "Five of DIAMONDS"
+  },
+  "14": {
+    "number": {
+      "name": "KING"
+    },
+    "color": "CLUBS",
+    "description": "King of CLUBS"
+  },
+  "51": {
+    "number": {
+      "name": "ACE"
+    },
+    "color": "SPADES",
+    "description": "Ace of SPADES"
+  },
+  "35": {
+    "number": {
+      "name": "KING"
+    },
+    "color": "HEARTS",
+    "description": "King of HEARTS"
+  },
+  "19": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "SPADES",
+    "description": "Ten of SPADES"
+  },
+  "20": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "DIAMONDS",
+    "description": "Six of DIAMONDS"
+  },
+  "21": {
+    "number": {
+      "name": "EIGHT"
+    },
+    "color": "DIAMONDS",
+    "description": "Eight of DIAMONDS"
+  },
+  "22": {
+    "number": {
+      "name": "JACK"
+    },
+    "color": "HEARTS",
+    "description": "Jack of HEARTS"
+  },
+  "23": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "SPADES",
+    "description": "Two of SPADES"
+  },
+  "24": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "HEARTS",
+    "description": "Two of HEARTS"
+  },
+  "25": {
+    "number": {
+      "name": "EIGHT"
+    },
+    "color": "HEARTS",
+    "description": "Eight of HEARTS"
+  },
+  "26": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "SPADES",
+    "description": "Four of SPADES"
+  },
+  "27": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "CLUBS",
+    "description": "Four of CLUBS"
+  },
+  "28": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "HEARTS",
+    "description": "Ten of HEARTS"
+  },
+  "29": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "DIAMONDS",
+    "description": "Four of DIAMONDS"
+  },
+  "30": {
+    "number": {
+      "name": "QUEEN"
+    },
+    "color": "DIAMONDS",
+    "description": "Queen of DIAMONDS"
+  },
+  "31": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "HEARTS",
+    "description": "Five of HEARTS"
+  },
+  "32": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "SPADES",
+    "description": "Five of SPADES"
+  },
+  "33": {
+    "number": {
+      "name": "QUEEN"
+    },
+    "color": "CLUBS",
+    "description": "Queen of CLUBS"
+  },
+  "34": {
+    "number": {
+      "name": "EIGHT"
+    },
+    "color": "CLUBS",
+    "description": "Eight of CLUBS"
+  },
+  "36": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "SPADES",
+    "description": "Three of SPADES"
+  },
+  "37": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "SPADES",
+    "description": "Seven of SPADES"
+  },
+  "38": {
+    "number": {
+      "name": "NINE"
+    },
+    "color": "HEARTS",
+    "description": "Nine of HEARTS"
+  },
+  "39": {
+    "number": {
+      "name": "FIVE"
+    },
+    "color": "CLUBS",
+    "description": "Five of CLUBS"
+  },
+  "40": {
+    "number": {
+      "name": "SIX"
+    },
+    "color": "HEARTS",
+    "description": "Six of HEARTS"
+  },
+  "41": {
+    "number": {
+      "name": "JACK"
+    },
+    "color": "SPADES",
+    "description": "Jack of SPADES"
+  },
+  "42": {
+    "number": {
+      "name": "TEN"
+    },
+    "color": "CLUBS",
+    "description": "Ten of CLUBS"
+  },
+  "43": {
+    "number": {
+      "name": "SEVEN"
+    },
+    "color": "DIAMONDS",
+    "description": "Seven of DIAMONDS"
+  },
+  "44": {
+    "number": {
+      "name": "FOUR"
+    },
+    "color": "HEARTS",
+    "description": "Four of HEARTS"
+  },
+  "45": {
+    "number": {
+      "name": "TWO"
+    },
+    "color": "DIAMONDS",
+    "description": "Two of DIAMONDS"
+  },
+  "46": {
+    "number": {
+      "name": "KING"
+    },
+    "color": "DIAMONDS",
+    "description": "King of DIAMONDS"
+  },
+  "48": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "DIAMONDS",
+    "description": "Three of DIAMONDS"
+  },
+  "50": {
+    "number": {
+      "name": "THREE"
+    },
+    "color": "CLUBS",
+    "description": "Three of CLUBS"
+  }
+}

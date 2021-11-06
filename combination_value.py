@@ -36,20 +36,39 @@ class CombinationChecker:
     def get_all_straights(self, length_of_straight):
         amount_of_straights = len(self.combination_cards) - length_of_straight
         for card in self.combination_cards[:amount_of_straights]:
-            if self.check_for_straight_below(card, length_of_straight):
-                self.combinations.append(CombinationItem(Combinations.STRAIGHT, card.get_number().value.get_value(),
-                                                         card.get_color().value.get_value()))
+            if self.check_for_straight_below(card, 4):
+                if self.is_straight_flush(card, 4):
+                    self.combinations.append(
+                        CombinationItem(Combinations.STRAIGHT_FLUSH, card.get_number().value.get_value(),
+                                        card.get_color().value.get_value()))
+                else:
+                    self.combinations.append(CombinationItem(Combinations.STRAIGHT, card.get_number().value.get_value(),
+                                                             card.get_color().value.get_value()))
 
     def check_for_straight_below(self, card, straight_length):  # PROBLEM: Ace is only used as 14 not as 1
         value = card.number.value.get_highest_value()
         for i in range(straight_length):
             value -= 1
-            if any(card.number.value.is_value(value) for card in self.combination_cards):
+            if any(card.get_number().value.is_value(value) for card in self.combination_cards):
                 pass
             else:
                 return False
 
         return True
+
+    def is_straight_flush(self, card, straight_length):  # PROBLEM: Ace is only used as 14 not as 1
+        color = card.get_color().value.get_value()
+        value = card.number.value.get_highest_value()
+        color_count = 0
+        for i in range(straight_length):
+            value -= 1
+            for card in self.combination_cards:
+                if card.get_color().value.get_value() == color and card.number.value.get_highest_value() == value:
+                    color_count += 1
+        if color_count == 4:
+            return True
+        else:
+            return False
 
     def sort_combination(self):
         self.combination_cards.sort(key=self.sort_by_number, reverse=True)
@@ -103,7 +122,13 @@ class CombinationChecker:
         return number_of_equivalents
 
     def check_for_straight_flush(self):
-        pass
+        if self.contain_flush_and_straight():
+            pass
+
+    def contain_flush_and_straight(self):
+        if any(combo.get_rank() == Combinations.STRAIGHT for combo in self.combinations) and any(
+                combo.get_rank() == Combinations.FLUSH for combo in self.combinations):
+            return True
 
 
 class ColorCounter:

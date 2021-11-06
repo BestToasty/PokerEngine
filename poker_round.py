@@ -1,5 +1,6 @@
 from poker_deck import PokerDeck
 from poker_player import PokerPlayer
+from combination_value import CombinationChecker
 import json
 
 
@@ -9,12 +10,14 @@ class PokerRound:
     players = []
     board = []
     deck = []
+    combo_checker = None
 
     def __init__(self, player_count, card_count):
         self.number_of_players = player_count
         self.number_of_cards = card_count
         self.players = []
         self.board = []
+        self.combo_checker = None
 
     def prepare_round_with_prepared_deck(self, json_deck_string):
         self.create_players()
@@ -29,6 +32,11 @@ class PokerRound:
 
     def initiate_round(self):
         self.deal_cards()
+
+    def test_initiate_round(self):
+        self.deal_cards()
+        self.deal_board()
+        self.combo_checker = CombinationChecker(self.get_players()[0].get_hand(), self.get_board())
 
     def create_players(self):
         for player in range(self.number_of_players):
@@ -80,3 +88,6 @@ class PokerRound:
 
     def get_deck(self):
         return self.deck
+
+    def get_players(self):
+        return self.players
